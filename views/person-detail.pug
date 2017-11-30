@@ -2,7 +2,7 @@ extends layout
 
 block content
     if person
-        h1 Hello #{person.name}! Here are some changes
+        h1 Hello #{person.name}! Here are some changes!
         p Here are your full details:
         pre= JSON.stringify(person, null, 2)
     else
