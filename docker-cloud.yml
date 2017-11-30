@@ -2,7 +2,7 @@ app:
   autoredeploy: true
   environment:
     - 'DB_URL=mongodb://mongodb/wtm'
-    - VIRTUAL_HOST=app.arm.ag
+    - VIRTUAL_HOST=app.xella.de
   image: 'armaganlonca/wtmbjs-8:latest'
   ports:
     - '3000'
